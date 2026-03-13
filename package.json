@@ -1,5 +1,5 @@
 {
-  "name": "my-portifolio",
+  "name": "kethan-portifolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,8 +7,7 @@
     "dev": "vite --open",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "pages:deploy": "npm run build && npx wrangler pages deploy dist"
+    "preview": "vite preview"
   },
   "dependencies": {
     "framer-motion": "^12.23.25",
